@@ -1,0 +1,33 @@
+
+.login{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.google{
+    margin-bottom: 30px;
+    display: inline-flex;
+}
+
+.google:hover{
+    color: gray;
+    cursor: pointer;
+}
+
+.inputKey{
+    margin-bottom: 15px;
+}
+
+.loginBtn{
+    border: 0.5px solid;
+    border-radius: 10px;
+}
+
+.loginBtn:hover{
+    background-color: rgb(215, 214, 214);
+    cursor: pointer;
+}
+
+.errormsg {
+    color: red;
+}

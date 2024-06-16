@@ -1,0 +1,20 @@
+
+.btn{
+    position: fixed;
+    bottom: 5%;
+    right: 5%;
+    width: 70px;
+    height: 70px;
+    line-height:70px;
+    color:white;
+    font-weight: bold;
+    font-size: 30px;
+    background: rgb(12, 21, 143);
+    border-radius: 50%;
+    border: none;
+}
+
+.btn:hover{
+    cursor: pointer;
+    color: black;
+}

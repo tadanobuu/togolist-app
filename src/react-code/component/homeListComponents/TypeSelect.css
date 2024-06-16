@@ -1,0 +1,54 @@
+
+.selectArea {
+    background-color: #edeff3;
+    padding: 3vw;
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.selectbox {
+    margin: 0 auto;
+}
+
+.selectbox select {
+    width: 10em;
+    height: 2em;
+    padding: .4em calc(.8em + 30px) .4em .8em;
+    border: none;
+    border-bottom: 2px solid #d0d0d0;
+    background-color: #fff;
+    color: #333333;
+    font-size: 0.9em;
+    cursor: pointer;
+    border-radius: 9999px;
+}
+
+.selectbox select:focus {
+    outline: none;
+}
+
+.selectAreaButton{
+    margin-left: 1vw;
+    height: 1.5em;
+    width: max(12vw,100px);
+    border: none;
+    background-color: white;
+    border-radius: 30px;
+}
+
+.selectAreaButton:hover{
+    cursor: pointer;
+    background-color: rgba(200,200,200,0.6);
+}
+
+.through{
+    text-decoration: line-through;
+    text-decoration-thickness: 2px;
+    margin-left: 1vw;
+    height: 1.5em;
+    width: max(12vw,100px);
+    border: none;
+    background-color: white;
+    border-radius: 30px;
+}

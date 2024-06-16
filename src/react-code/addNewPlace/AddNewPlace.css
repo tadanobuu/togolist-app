@@ -1,0 +1,173 @@
+
+html,body{
+    height: 100%;
+}
+
+body{
+    background-color: #edeff3;
+}
+
+em{
+    margin-top: 3px;
+    margin-left: 1px;
+}
+
+.title{
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.newPlaceForm{
+    width: max(50%,350px);
+    height: 17vw;
+    margin: 0 auto;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-color:rgba(200,200,200,0.6);
+    background-blend-mode:lighten;
+    border-radius: 20px;
+    min-height: 145px;
+    min-width: 350px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+input{
+    margin-top: 10px;
+    border-top: none;
+    border-right: none;
+    border-bottom: 1px solid #333;
+    border-left: none;
+}
+
+button{
+    margin-top: 20px;
+}
+
+.newPlaceName{
+    height: max(4vw,40px);
+    width: max(30vw,210px);
+}
+
+.input1{
+    position:relative;
+    top:10%;
+    width: 70%;
+}
+
+.newPlaceName > .MuiSvgIcon-root{
+    margin-right: 10px;
+    position:relative;
+    top:20%;
+    left: 1.8%;
+}
+
+.input2-1{
+    width: 13%;
+    margin-right: 5px;
+}
+
+.input2-2{
+    width: 17%;
+    margin-left: 5px;
+}
+
+.newAddressNum{
+    height: max(3vw,30px);
+    width: max(20vw,210px);
+}
+
+.yubin_icon{
+    margin-right: 14px;
+    position:relative;
+    top:7%;
+    left: 2.5%;
+    font-size: 21px;
+}
+
+.newAddress{
+    height: max(3vw,30px);
+    width: max(50vw,380px);
+}
+
+.input3{
+    width: 80%;
+}
+
+.newAddress > .MuiSvgIcon-root{
+    margin-right: 10px;
+    position:relative;
+    top:20%;
+    left: 0.7%;
+}
+
+.newDate{
+    height: max(3vw,30px);
+    width: max(35vw,380px);
+}
+
+.input4-1{
+    width: 27%;
+    margin-right: 5px;
+}
+
+.input4-2{
+    width: 27%;
+    margin-left: 5px;
+}
+
+.newDate > .MuiSvgIcon-root{
+    margin-right: 10px;
+    position:relative;
+    top:20%;
+    left: 1%;
+}
+
+input[type="number"]::-webkit-outer-spin-button, 
+input[type="number"]::-webkit-inner-spin-button { 
+    -webkit-appearance: none; 
+    margin: 0; 
+} 
+
+.otherGroup{
+    text-align: center;
+}
+
+.newPictureButton{
+    border: none;
+    background-color: #edeff3;
+    display: inline-flex;
+}
+
+.newPictureButton:hover{
+    cursor: pointer;
+    color: gray;
+}
+
+.sendButton.sendButton{
+    border: none;
+    background-color: #edeff3;
+    display: inline-flex;
+}
+
+.sendButton:hover{
+    cursor: pointer;
+    color: gray;
+}
+
+.pageBackButton{
+    border: none;
+    background-color: #edeff3;
+    display: inline-flex;
+}
+
+.pageBackButton:hover{
+    cursor: pointer;
+    color: gray;
+}
+
+.guidance{
+    font-size: min(1.8vw, 9px);
+    margin-left: 2px;
+}

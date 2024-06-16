@@ -1,0 +1,86 @@
+
+.options{
+    height: clamp(190px, 9vw, 300px);
+    text-align: center;
+    border: 1px solid black;
+    width: clamp(350px, 70%, 500px);
+    margin: 0 auto;
+    padding: 2%;
+    border-radius: 40px;
+}
+
+input{
+    cursor: pointer;
+}
+
+select{
+    cursor: pointer;
+}
+
+.searchDate {
+    font-size: clamp(14, 22.2vw, 20px);
+    margin-top: 10px;
+}
+
+.searchDate > .MuiSvgIcon-root{
+    font-size: clamp(14px, 2.2vw, 20px);
+    margin-right: 10px;
+}
+
+.searchUserName{
+    font-size: clamp(14px, 2.2vw, 20px);
+    margin-top: 10px;
+}
+
+.searchUserName > .MuiSvgIcon-root{
+    font-size: clamp(14px ,2.2vw, 20px);
+    margin-right: 10px;
+}
+
+.searchPostDateTime{
+    font-size: clamp(14px, 2.2vw, 20px);
+    margin-top: 10px;
+}
+
+.searchPostDateTime > .MuiSvgIcon-root{
+    font-size: clamp(14px, 2.2vw, 20px);
+    margin-right: 10px;
+}
+
+.searchPrectures{
+    font-size: clamp(14px, 2.2vw, 20px);
+    margin-top: 10px;
+}
+
+.searchPrectures > .MuiSvgIcon-root{
+    font-size: clamp(14px, 2.2vw, 20px);
+    margin-right: 10px;
+}
+
+.close{
+    height: 20px;
+    margin-top: 15px;
+    margin-right: 1.5%;
+    border: none;
+    background-color: rgb(238, 130, 238);
+    border-radius: 20px;
+}
+
+.close:hover{
+    cursor: pointer;
+    background-color: rgb(233, 73, 233);
+}
+
+.reset{
+    height: 20px;
+    margin-top: 15px;
+    margin-left: 1.5%;
+    border: none;
+    background-color: rgb(181, 222, 245);
+    border-radius: 20px;
+}
+
+.reset:hover{
+    cursor: pointer;
+    background-color: rgb(165, 201, 241);
+}
